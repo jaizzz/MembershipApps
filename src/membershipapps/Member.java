@@ -11,23 +11,29 @@ import java.util.List;
  *
  * @author ACER
  */
-public class Member extends User{
+public class Member{
     private String tanggal_daftar;
     private String status;
     
-    public Member(int userID, String nama, String alamat, String email, String tanggal, String status) {
-        super(userID, nama, alamat, email);
-        this.tanggal_daftar = tanggal;
+    public Member(String nama, String alamat) {
+        this.tanggal_daftar = nama;
+        this.status = alamat;
+    }
+
+    public String getTanggal_daftar() {
+        return tanggal_daftar;
+    }
+
+    public void setTanggal_daftar(String tanggal_daftar) {
+        this.tanggal_daftar = tanggal_daftar;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
         this.status = status;
     }
     
-    @Override
-    public void ShowInfo() {
-        System.out.println("ID Member      : "+userID);
-        System.out.println("Nama Member    : "+nama);
-        System.out.println("Alamat Member  : "+alamat);
-        System.out.println("Email Member   : "+email);
-        System.out.println("Tanggal Daftar : "+email);
-        System.out.println("Status Member   : "+email);
-    }
 }
