@@ -8,6 +8,6 @@ package membershipapps;
  *
  * @author ACER
  */
-public class Connection {
+public class Admin {
     
 }
