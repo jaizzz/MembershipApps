@@ -45,17 +45,26 @@ public class TampilanMenu extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Poppins ExtraBold", 0, 24)); // NOI18N
         jLabel1.setText("Jaiz Cahyaa");
 
+        jTextArea1.setBackground(new java.awt.Color(214, 207, 180));
         jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jTextArea1.setForeground(new java.awt.Color(0, 0, 0));
         jTextArea1.setRows(5);
         jTextArea1.setText("BEGINNER");
         jScrollPane1.setViewportView(jTextArea1);
 
+        jTextArea2.setBackground(new java.awt.Color(214, 207, 180));
         jTextArea2.setColumns(20);
+        jTextArea2.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jTextArea2.setForeground(new java.awt.Color(0, 0, 0));
         jTextArea2.setRows(5);
         jTextArea2.setText("ATHLET");
         jScrollPane2.setViewportView(jTextArea2);
 
+        jTextArea3.setBackground(new java.awt.Color(214, 207, 180));
         jTextArea3.setColumns(20);
+        jTextArea3.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jTextArea3.setForeground(new java.awt.Color(0, 0, 0));
         jTextArea3.setRows(5);
         jTextArea3.setText("BODYBUILDER");
         jScrollPane3.setViewportView(jTextArea3);
